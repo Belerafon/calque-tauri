@@ -27,6 +27,14 @@ A lightweight desktop version of the [calque.io](https://calque.io/) calculator,
    src-tauri/target/release/Calque.exe
    ```
 
+## Download
+
+You can always download the latest ready-to-use exe from the [Releases page](https://github.com/Belerafon/calque-tauri/releases).
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
 ## Notes
 - All frontend sources and styles are identical to the original calque.io
 - For Tauri/Rust, always use cmd, not PowerShell
