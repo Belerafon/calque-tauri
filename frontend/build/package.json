@@ -1,0 +1,8 @@
+{
+  "name": "calque-tauri-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Calque calculator (Tauri desktop app)",
+  "scripts": {},
+  "author": "",
+  "license": "MIT"
+}

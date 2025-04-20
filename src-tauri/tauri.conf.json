@@ -1,0 +1,22 @@
+{
+  "build": {
+    "beforeBuildCommand": "",
+    "beforeDevCommand": "",
+    "devPath": "../frontend/dist",
+    "distDir": "../frontend/dist"
+  },
+  "package": {
+    "productName": "Calque",
+    "version": "1.0.0"
+  },
+  "tauri": {
+    "windows": [
+      {
+        "title": "Calque Calculator",
+        "width": 400,
+        "height": 600,
+        "resizable": true
+      }
+    ]
+  }
+}

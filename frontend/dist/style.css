@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+body { margin: 0px; padding: 0px; }
+
+.interface { position: absolute; inset: 0px; height: 100%; }
+
+.interface .input, .interface .output {
+  position: absolute; top: 0px; right: 0px; left: 0px; width: 100%;
+  border: none; margin: 0px;
+  font-family: Menlo, Monaco, Consolas, courier, monospace;
+  font-size: 16px; line-height: 1.5;
+  box-sizing: border-box; white-space: pre-wrap; word-break: break-word;
+}
+
+.interface .input {
+  overflow: auto; outline: none; background: none; resize: none; padding: 20px;
+}
+
+.interface .output {
+  overflow: hidden; padding: 20px 0px;
+}
+
+.interface .output div { display: block; padding: 0px 20px; }
+.interface .output div.highlight { background-color: rgb(249, 249, 249); }
+.interface .output .code { color: rgb(233, 233, 233); }
+.interface .output .code::before { content: attr(data-code); }
+.interface .output .hint::before { content: attr(data-prefix); color: rgb(233, 233, 233); white-space: pre; }
+.interface .output .hint { z-index: 1; position: absolute; white-space: pre; }
+.interface .output .help { color: silver; }
+.interface .output .result { color: silver; }
+.interface .output .error { color: red; }
+
+@media (prefers-color-scheme: dark) {
+  body, textarea { background-color: rgb(33, 33, 33); color: rgb(238, 238, 238); }
+  .interface .output div.highlight { background-color: rgb(66, 66, 66); }
+  .interface .output .code { color: rgb(97, 97, 97); }
+  .interface .output .hint::before { color: rgb(97, 97, 97); }
+  .interface .output .help { color: rgb(117, 117, 117); }
+  .interface .output .result { color: rgb(117, 117, 117); }
+}

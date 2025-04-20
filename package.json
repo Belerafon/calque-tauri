@@ -1,0 +1,15 @@
+{
+  "name": "calque-tauri-app",
+  "version": "1.0.0",
+  "description": "Tauri desktop wrapper for Calque calculator",
+  "main": "frontend/index.html",
+  "scripts": {
+    "tauri": "tauri",
+    "build": "tauri build"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.6.3"
+  },
+  "author": "",
+  "license": "MIT"
+}

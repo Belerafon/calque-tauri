@@ -1,0 +1,15 @@
+[package]
+name = "calque_tauri"
+version = "0.1.0"
+edition = "2021"
+
+description = "Tauri wrapper for Calque calculator"
+
+[dependencies]
+tauri = { version = "1", features = [] }
+
+[build-dependencies]
+tauri-build = { version = "1", features = [] }
+
+[features]
+custom-protocol = ["tauri/custom-protocol"]
